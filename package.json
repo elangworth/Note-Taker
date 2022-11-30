@@ -1,12 +1,16 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "![GitHub](https://img.shields.io/github/license/elangworth/Note-Taker?logo=GitHub&logoColor=blue)",
   "main": "server.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
   },
-  "author": "",
+  "engines": {
+    "node": "v18.12.0"
+  },
+  "author": "Emily Langworth",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.8",
@@ -15,5 +19,14 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elangworth/Note-Taker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elangworth/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/elangworth/Note-Taker#readme"
+  
 }

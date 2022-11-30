@@ -6,7 +6,7 @@ const { clog } = require('./middleware/clog');
 
 const app = express();
 app.set('view engine', 'ejs');
-const PORT = 3001;
+const PORT = Number(process.env.PORT) || 3001;
 
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
